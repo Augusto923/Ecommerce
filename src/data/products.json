@@ -1,0 +1,952 @@
+[
+    {
+        "id": 1,
+        "title": "Remera Oversize de Algodón Básico",
+        "shortDescription": "Una prenda esencial para tu día a día, con un ajuste cómodo y moderno que se adapta a cualquier estilo.",
+        "longDescription": "Confeccionada con 100% algodón de alta calidad, esta remera oversize ofrece una sensación de suavidad y transpirabilidad inigualable. Su corte holgado y diseño minimalista la hacen perfecta para combinar con jeans, shorts o faldas, creando un look casual y versátil. Disponible en varios colores neutros para que elijas tu favorita.",
+        "price": 12500,
+        "stock": 50,
+        "brand": "Urban Style",
+        "category": "Remeras",
+        "discount": 10,
+        "tags": [
+            "basic",
+            "new"
+        ],
+        "mainImage": "https://i.postimg.cc/L5nGrDGC/unnamed.png"
+    },
+    {
+        "id": 2,
+        "title": "Remera de Algodón Orgánico con Estampado Gráfico",
+        "shortDescription": "Una remera sustentable con un diseño único que te hará destacar.",
+        "longDescription": "Confeccionada con 100% algodón orgánico, esta remera es amigable con el medio ambiente y súper cómoda. El estampado frontal presenta un diseño minimalista y moderno, perfecto para quienes buscan un estilo original y consciente.",
+        "price": 18500,
+        "stock": 35,
+        "brand": "EcoWear",
+        "category": "Remeras",
+        "discount": 0,
+        "tags": [
+            "organic",
+            "graphic",
+            "new"
+        ],
+        "mainImage": "https://i.postimg.cc/Pq0w8D7T/remera-organica.png"
+    },
+    {
+        "id": 3,
+        "title": "Remera Deportiva de Secado Rápido",
+        "shortDescription": "Ideal para tus entrenamientos, manteniéndote fresco y seco en todo momento.",
+        "longDescription": "Fabricada con un tejido técnico que absorbe la humedad y se seca rápidamente, esta remera deportiva es perfecta para el gimnasio o actividades al aire libre. Su corte atlético y costuras planas minimizan el roce, ofreciendo máxima comodidad y libertad de movimiento.",
+        "price": 14000,
+        "stock": 60,
+        "brand": "SportFit",
+        "category": "Remeras",
+        "discount": 15,
+        "tags": [
+            "sport",
+            "gym",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/q7SjH9Vj/remera-deportiva.png"
+    },
+    {
+        "id": 4,
+        "title": "Remera Rayada de Manga Larga",
+        "shortDescription": "Un clásico atemporal que no puede faltar en tu guardarropa.",
+        "longDescription": "Confeccionada en algodón suave y con un diseño de rayas horizontales, esta remera de manga larga es versátil y fácil de combinar. Perfecta para usar sola o debajo de una campera, es ideal para un look casual y elegante a la vez.",
+        "price": 16000,
+        "stock": 45,
+        "brand": "Classic Look",
+        "category": "Remeras",
+        "discount": 0,
+        "tags": [
+            "striped",
+            "long-sleeve"
+        ],
+        "mainImage": "https://i.postimg.cc/vH2s4Q3s/remera-rayada.png"
+    },
+    {
+        "id": 5,
+        "title": "Remera Polo de Piqué Clásica",
+        "shortDescription": "Un toque de sofisticación para tus outfits más formales y casuales.",
+        "longDescription": "Esta remera polo de piqué de algodón es un ícono de estilo. Con su cuello abotonado y ajuste regular, ofrece una combinación perfecta de comodidad y elegancia. Ideal para el trabajo o para un evento social informal.",
+        "price": 22000,
+        "stock": 25,
+        "brand": "Preppy Wear",
+        "category": "Remeras",
+        "discount": 20,
+        "tags": [
+            "polo",
+            "classic",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/y8m5FvSg/remera-oversize.png"
+    },
+    {
+        "id": 6,
+        "title": "Crop Top de Algodón Ajustado",
+        "shortDescription": "Moderno y cómodo, perfecto para combinar con pantalones de tiro alto.",
+        "longDescription": "Este crop top ajustado está hecho de un tejido de algodón elástico que se adapta a tu figura. Su diseño corto y minimalista lo convierte en la pieza ideal para un look veraniego o para layering.",
+        "price": 9500,
+        "stock": 70,
+        "brand": "Urban Vibe",
+        "category": "Remeras",
+        "discount": 0,
+        "tags": [
+            "crop-top",
+            "basic"
+        ],
+        "mainImage": "https://i.postimg.cc/zX3t4Vf5/crop-top.png"
+    },
+    {
+        "id": 7,
+        "title": "Remera de Lino con Cuello V",
+        "shortDescription": "Ligera y fresca, ideal para los días más calurosos.",
+        "longDescription": "Elaborada en 100% lino, esta remera con cuello en V es la definición de frescura. Su tela transpirable y su caída fluida la hacen indispensable para el verano, proporcionando un look casual y natural.",
+        "price": 19000,
+        "stock": 30,
+        "brand": "Natural Feel",
+        "category": "Remeras",
+        "discount": 0,
+        "tags": [
+            "linen",
+            "v-neck",
+            "summer"
+        ],
+        "mainImage": "https://i.postimg.cc/W1g4tW45/remera-lino.png"
+    },
+    {
+        "id": 8,
+        "title": "Remera Térmica de Manga Larga",
+        "shortDescription": "La capa base perfecta para mantenerte abrigado en climas fríos.",
+        "longDescription": "Diseñada con un tejido térmico de alta tecnología, esta remera de manga larga retiene el calor corporal sin sacrificar la transpirabilidad. Es la primera capa ideal para actividades al aire libre en invierno o simplemente para estar cómodo en casa.",
+        "price": 25000,
+        "stock": 20,
+        "brand": "WinterShield",
+        "category": "Remeras",
+        "discount": 0,
+        "tags": [
+            "thermal",
+            "winter"
+        ],
+        "mainImage": "https://i.postimg.cc/G2Z4tV5g/remera-termica.png"
+    },
+    {
+        "id": 9,
+        "title": "Remera con Estampado de Banda de Rock",
+        "shortDescription": "Muestra tu pasión por la música con un diseño icónico y retro.",
+        "longDescription": "Una remera de algodón 100% con un estampado de alta calidad que rinde homenaje a una banda de rock legendaria. Su estilo vintage y su tacto suave la convierten en una pieza de colección para cualquier fanático de la música.",
+        "price": 17000,
+        "stock": 15,
+        "brand": "Rock Legends",
+        "category": "Remeras",
+        "discount": 0,
+        "tags": [
+            "band",
+            "rock",
+            "vintage"
+        ],
+        "mainImage": "https://i.postimg.cc/L5v8bJpM/remera-rock.png"
+    },
+    {
+        "id": 10,
+        "title": "Remera Muscle Fit de Algodón",
+        "shortDescription": "Diseñada para realzar tu figura con un ajuste ceñido y moderno.",
+        "longDescription": "Con un corte que se ajusta a los hombros y el pecho, esta remera de algodón con elastano resalta la musculatura. Su tejido elástico ofrece una gran comodidad y es ideal para quienes buscan un look más definido y atlético.",
+        "price": 15500,
+        "stock": 40,
+        "brand": "Body Sculpt",
+        "category": "Remeras",
+        "discount": 10,
+        "tags": [
+            "muscle-fit",
+            "athletic",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/d1Q8tYvL/remera-muscle-fit.png"
+    },
+    {
+        "id": 11,
+        "title": "Pantalón Cargo de Gabardina",
+        "shortDescription": "Un estilo utilitario y moderno, ideal para un look casual y aventurero.",
+        "longDescription": "Confeccionado en gabardina resistente, este pantalón cargo cuenta con múltiples bolsillos funcionales en los laterales. Su corte relaxed fit ofrece comodidad y libertad de movimiento, perfecto para el día a día o para explorar la ciudad. Disponible en tonos neutros como verde militar, beige y negro.",
+        "price": 32000,
+        "stock": 40,
+        "brand": "Urban Trek",
+        "category": "Pantalones",
+        "discount": 0,
+        "tags": [
+            "cargo",
+            "gabardina",
+            "utilitarian"
+        ],
+        "mainImage": "https://i.postimg.cc/pX4wT2xZ/pantalon-cargo.png"
+    },
+    {
+        "id": 12,
+        "title": "Jean Slim Fit Elástico",
+        "shortDescription": "Un clásico renovado con la máxima comodidad y un ajuste perfecto.",
+        "longDescription": "Este jean slim fit está fabricado con una mezcla de algodón y elastano, lo que le da una elasticidad superior para adaptarse a tu cuerpo sin perder la forma. Su corte ceñido en la pierna sin ser apretado lo hace ideal para cualquier ocasión, desde el trabajo hasta una salida casual. Disponible en varios lavados de denim.",
+        "price": 28000,
+        "stock": 60,
+        "brand": "Denim Co.",
+        "category": "Pantalones",
+        "discount": 10,
+        "tags": [
+            "jean",
+            "slim-fit",
+            "elastic",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/J0mY9zT5/jean-slim-fit.png"
+    },
+    {
+        "id": 13,
+        "title": "Pantalón Jogger de Frisa",
+        "shortDescription": "Comodidad absoluta y un estilo deportivo que no pasa de moda.",
+        "longDescription": "Ideal para el relax o para un look deportivo, este jogger de frisa es increíblemente suave y cálido. Cuenta con cintura y puños elásticos para un ajuste seguro, y cordón ajustable para mayor comodidad. Los bolsillos laterales añaden funcionalidad. Perfecto para estar en casa o para un paseo casual.",
+        "price": 25000,
+        "stock": 55,
+        "brand": "Cozy Life",
+        "category": "Pantalones",
+        "discount": 0,
+        "tags": [
+            "jogger",
+            "frisa",
+            "sport"
+        ],
+        "mainImage": "https://i.postimg.cc/y8T2zXwD/pantalon-jogger.png"
+    },
+    {
+        "id": 14,
+        "title": "Pantalón Chino Clásico",
+        "shortDescription": "Versátil y elegante, el pantalón ideal para cualquier ocasión formal o informal.",
+        "longDescription": "El pantalón chino es un básico atemporal. Este modelo está confeccionado en sarga de algodón de alta calidad con un corte recto que se adapta a todas las siluetas. Combínalo con una camisa para un look de oficina o con una remera para un estilo más relajado. Es una prenda esencial para cualquier guardarropa.",
+        "price": 29500,
+        "stock": 35,
+        "brand": "Gentleman's Choice",
+        "category": "Pantalones",
+        "discount": 15,
+        "tags": [
+            "chino",
+            "classic",
+            "formal",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/W1g4tW45/pantalon-chino.png"
+    },
+    {
+        "id": 15,
+        "title": "Pantalón de Sastreria Straight Leg",
+        "shortDescription": "Un pantalón de corte recto y elegante que aporta sofisticación a tu look.",
+        "longDescription": "Confeccionado con un tejido de sastreria de alta calidad, este pantalón de corte straight leg ofrece un ajuste impecable y una caída perfecta. Ideal para eventos formales, reuniones de trabajo o para darle un toque chic a tu estilo diario. Combínalo con blazers o camisas para un look completo.",
+        "price": 45000,
+        "stock": 20,
+        "brand": "Elegance Atelier",
+        "category": "Pantalones",
+        "discount": 0,
+        "tags": [
+            "tailored",
+            "straight-leg",
+            "elegant"
+        ],
+        "mainImage": "https://i.postimg.cc/Y2s3tX7g/pantalon-sastreria.png"
+    },
+    {
+        "id": 16,
+        "title": "Calza Deportiva de Cintura Alta",
+        "shortDescription": "Máxima sujeción y flexibilidad para tus entrenamientos más exigentes.",
+        "longDescription": "Esta calza deportiva de cintura alta está diseñada para ofrecer el mejor soporte y confort durante cualquier actividad física. Su tejido elástico y transpirable evacua el sudor, manteniéndote seca y cómoda. La cintura alta brinda un ajuste seguro y moldea la figura.",
+        "price": 18000,
+        "stock": 75,
+        "brand": "Athleisure Fit",
+        "category": "Pantalones",
+        "discount": 0,
+        "tags": [
+            "leggings",
+            "sport",
+            "high-waist"
+        ],
+        "mainImage": "https://i.postimg.cc/pX4wT2xZ/calza-deportiva.png"
+    },
+    {
+        "id": 17,
+        "title": "Pantalón Wide Leg de Lino",
+        "shortDescription": "Frescura y estilo bohemio con un corte amplio y fluido.",
+        "longDescription": "Ideal para los días de calor, este pantalón wide leg de lino 100% ofrece una sensación ligera y aireada. Su corte holgado y su tejido natural lo convierten en la prenda perfecta para un look relajado y chic. Combínalo con sandalias o zapatillas para un estilo effortless.",
+        "price": 35000,
+        "stock": 25,
+        "brand": "Summer Breeze",
+        "category": "Pantalones",
+        "discount": 0,
+        "tags": [
+            "wide-leg",
+            "linen",
+            "summer"
+        ],
+        "mainImage": "https://i.postimg.cc/J0mY9zT5/pantalon-lino.png"
+    },
+    {
+        "id": 18,
+        "title": "Pantalón de Cuerina Ajustado",
+        "shortDescription": "Un toque de rock y audacia para tus outfits nocturnos.",
+        "longDescription": "Este pantalón de cuerina ajustado es una pieza statement para quienes buscan un estilo atrevido. Su material elástico imita el cuero a la perfección, ofreciendo comodidad y un look llamativo. Ideal para combinar con botas y tops de noche.",
+        "price": 27000,
+        "stock": 15,
+        "brand": "Rebel Heart",
+        "category": "Pantalones",
+        "discount": 20,
+        "tags": [
+            "faux-leather",
+            "skinny",
+            "night-out",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/y8T2zXwD/pantalon-cuerina.png"
+    },
+    {
+        "id": 19,
+        "title": "Pantalón de Lona con Puño",
+        "shortDescription": "Un pantalón versátil y resistente, ideal para tus aventuras urbanas.",
+        "longDescription": "Hecho de lona de algodón duradera, este pantalón combina la resistencia con el estilo. El puño elástico en el tobillo le da un toque moderno y lo hace perfecto para llevar con zapatillas. Es una opción cómoda y estilosa para tu día a día.",
+        "price": 26500,
+        "stock": 30,
+        "brand": "Adventure Gear",
+        "category": "Pantalones",
+        "discount": 0,
+        "tags": [
+            "canvas",
+            "cuffed",
+            "urban"
+        ],
+        "mainImage": "https://i.postimg.cc/W1g4tW45/pantalon-lona.png"
+    },
+    {
+        "id": 20,
+        "title": "Pantalón de Terciopelo Palazzo",
+        "shortDescription": "Elegancia y un toque retro para lucir en ocasiones especiales.",
+        "longDescription": "Este pantalón palazzo de terciopelo es la elección perfecta para un look de noche sofisticado. Su corte amplio y la suavidad del terciopelo crean una silueta fluida y elegante. La cintura alta estiliza la figura y su tejido brillante lo convierte en el centro de todas las miradas.",
+        "price": 39000,
+        "stock": 10,
+        "brand": "Velvet Glam",
+        "category": "Pantalones",
+        "discount": 0,
+        "tags": [
+            "velvet",
+            "palazzo",
+            "party"
+        ],
+        "mainImage": "https://i.postimg.cc/Y2s3tX7g/pantalon-terciopelo.png"
+    },
+    {
+        "id": 21,
+        "title": "Batman: The Killing Joke",
+        "shortDescription": "Una de las historias más icónicas del Caballero Oscuro.",
+        "longDescription": "Este cómic de Alan Moore cuenta una trágica historia del origen del Joker y su confrontación con Batman, en una de las obras más importantes del género.",
+        "price": 3000,
+        "stock": 45,
+        "brand": "DC Comics",
+        "category": "Zapatillas",
+        "discount": 5,
+        "tags": [
+            "superhero",
+            "classic"
+        ],
+        "mainImage": "https://i.postimg.cc/2yW34G0r/batmanthekillingjoke.png"
+    },
+    {
+        "id": 22,
+        "title": "Zapatillas Urbanas de Cuero Clásico",
+        "shortDescription": "Un ícono del estilo urbano que combina versatilidad y elegancia en tu día a día.",
+        "longDescription": "Estas zapatillas de corte bajo están confeccionadas en cuero sintético de alta calidad, ofreciendo durabilidad y un look impecable. La suela de goma vulcanizada proporciona excelente tracción, mientras que el interior acolchado asegura comodidad durante todo el día. Perfectas para un look casual y sofisticado.",
+        "price": 45000,
+        "stock": 35,
+        "brand": "Streetwise",
+        "category": "Zapatillas",
+        "discount": 0,
+        "tags": [
+            "urban",
+            "classic",
+            "leather"
+        ],
+        "mainImage": "https://i.postimg.cc/9F2wJ9sM/zapatilla-urbana-cuero.png"
+    },
+    {
+        "id": 23,
+        "title": "Zapatillas de Running con Amortiguación Avanzada",
+        "shortDescription": "Diseñadas para corredores que buscan máximo rendimiento y protección en cada zancada.",
+        "longDescription": "La tecnología de amortiguación de última generación en la entresuela absorbe el impacto y proporciona un retorno de energía excepcional. La capellada de malla transpirable mantiene tus pies frescos, y la suela de goma de alta resistencia ofrece un agarre superior. Ideales para entrenamientos intensos y maratones.",
+        "price": 68000,
+        "stock": 50,
+        "brand": "RunFast",
+        "category": "Zapatillas",
+        "discount": 10,
+        "tags": [
+            "running",
+            "sport",
+            "advanced"
+        ],
+        "mainImage": "https://i.postimg.cc/pX4wT2xZ/zapatilla-running.png"
+    },
+    {
+        "id": 24,
+        "title": "Zapatillas de Lona de Estilo Retro",
+        "shortDescription": "Un diseño atemporal y desenfadado que se adapta a cualquier estilo casual.",
+        "longDescription": "Inspiradas en los clásicos del pasado, estas zapatillas de lona son ligeras y cómodas. Su construcción simple, con puntera de goma y cordones, las hace perfectas para un look relajado. Son una opción versátil para combinar con jeans, shorts o vestidos. Disponible en varios colores.",
+        "price": 28000,
+        "stock": 70,
+        "brand": "Canvas Vintage",
+        "category": "Zapatillas",
+        "discount": 0,
+        "tags": [
+            "retro",
+            "canvas",
+            "unisex"
+        ],
+        "mainImage": "https://i.postimg.cc/Y8T2zXwD/zapatilla-lona.png"
+    },
+    {
+        "id": 25,
+        "title": "Zapatillas de Plataforma chunky",
+        "shortDescription": "Un estilo audaz y elevado que te hará destacar en cualquier multitud.",
+        "longDescription": "Estas zapatillas de plataforma chunky son una declaración de moda. Su suela gruesa y diseño llamativo añaden altura y un toque de personalidad a cualquier outfit. Están fabricadas con materiales resistentes y un interior acolchado para que no tengas que sacrificar la comodidad por el estilo.",
+        "price": 55000,
+        "stock": 25,
+        "brand": "Bold Kicks",
+        "category": "Zapatillas",
+        "discount": 15,
+        "tags": [
+            "platform",
+            "chunky",
+            "trendy"
+        ],
+        "mainImage": "https://i.postimg.cc/9F2wJ9sM/zapatilla-plataforma.png"
+    },
+    {
+        "id": 26,
+        "title": "Zapatillas de Senderismo Impermeables",
+        "shortDescription": "Protección y agarre superior para tus aventuras en la naturaleza.",
+        "longDescription": "Diseñadas para el trail y el senderismo, estas zapatillas cuentan con una membrana impermeable que mantiene tus pies secos en condiciones húmedas. La suela robusta con tacos profundos proporciona un agarre excepcional en terrenos irregulares, mientras que la puntera reforzada protege tus dedos de los impactos.",
+        "price": 75000,
+        "stock": 18,
+        "brand": "Trail Explorer",
+        "category": "Zapatillas",
+        "discount": 0,
+        "tags": [
+            "hiking",
+            "waterproof",
+            "outdoor"
+        ],
+        "mainImage": "https://i.postimg.cc/J0mY9zT5/zapatilla-senderismo.png"
+    },
+    {
+        "id": 27,
+        "title": "Zapatillas de Baloncesto de Caña Alta",
+        "shortDescription": "Soporte y estilo en la cancha y en la calle, con un diseño icónico.",
+        "longDescription": "Inspiradas en los modelos clásicos de baloncesto, estas zapatillas de caña alta ofrecen un excelente soporte para el tobillo. La entresuela con amortiguación proporciona respuesta en cada salto, y el diseño de la capellada combina materiales sintéticos y textiles para un look duradero y con estilo. Una pieza esencial para los amantes del basket.",
+        "price": 62000,
+        "stock": 22,
+        "brand": "Hoop Legend",
+        "category": "Zapatillas",
+        "discount": 0,
+        "tags": [
+            "basketball",
+            "high-top",
+            "sport"
+        ],
+        "mainImage": "https://i.postimg.cc/Y8T2zXwD/zapatilla-baloncesto.png"
+    },
+    {
+        "id": 28,
+        "title": "Zapatillas de Skate con Suela Reforzada",
+        "shortDescription": "Diseñadas para resistir los trucos más exigentes y proporcionar un control óptimo.",
+        "longDescription": "Estas zapatillas de skate están construidas para durar. La suela de goma reforzada con patrón de agarre mejora el contacto con la tabla, mientras que la capellada de gamuza y lona resistente aguanta el desgaste. El interior acolchado en el tobillo y la lengüeta ofrece protección y confort durante las sesiones de skate.",
+        "price": 38000,
+        "stock": 40,
+        "brand": "Skate Life",
+        "category": "Zapatillas",
+        "discount": 20,
+        "tags": [
+            "skate",
+            "durable",
+            "street"
+        ],
+        "mainImage": "https://i.postimg.cc/9F2wJ9sM/zapatilla-skate.png"
+    },
+    {
+        "id": 29,
+        "title": "Zapatillas Minimalistas de Tela",
+        "shortDescription": "Ligereza y sencillez para una sensación de 'pies descalzos' en tu caminata diaria.",
+        "longDescription": "Con un diseño minimalista, estas zapatillas de tela son extremadamente ligeras y flexibles. Su suela fina y plana promueve una pisada más natural y el tejido transpirable permite que el aire circule libremente. Son perfectas para un estilo casual y para quienes buscan la máxima comodidad sin florituras.",
+        "price": 22000,
+        "stock": 65,
+        "brand": "Barefoot Freedom",
+        "category": "Zapatillas",
+        "discount": 0,
+        "tags": [
+            "minimalist",
+            "lightweight",
+            "casual"
+        ],
+        "mainImage": "https://i.postimg.cc/pX4wT2xZ/zapatilla-minimalista.png"
+    },
+    {
+        "id": 30,
+        "title": "Zapatillas con Diseño futurista",
+        "shortDescription": "Un calzado audaz y vanguardista que redefine el concepto de zapatillas.",
+        "longDescription": "Estas zapatillas son una obra de arte moderna, con un diseño futurista y materiales innovadores. La capellada con formas geométricas y colores metálicos se combina con una suela esculpida que no solo es llamativa, sino también ergonómica. Una pieza de colección para los amantes de la moda y el diseño experimental.",
+        "price": 95000,
+        "stock": 10,
+        "brand": "Future Lab",
+        "category": "Zapatillas",
+        "discount": 0,
+        "tags": [
+            "futuristic",
+            "fashion",
+            "exclusive"
+        ],
+        "mainImage": "https://i.postimg.cc/J0mY9zT5/zapatilla-futurista.png"
+    },
+    {
+        "id": 31,
+        "title": "Collar Minimalista con Dije de Luna",
+        "shortDescription": "Un delicado collar de plata que añade un toque de magia y sencillez a tu look.",
+        "longDescription": "Este elegante collar está hecho de plata esterlina 925, con una fina cadena y un pequeño dije de luna. Su diseño minimalista lo hace perfecto para el uso diario y para combinar con otras joyas. Un accesorio discreto pero lleno de significado, ideal para cualquier ocasión.",
+        "price": 8500,
+        "stock": 50,
+        "brand": "Moonlight Jewels",
+        "category": "Accesorios",
+        "discount": 0,
+        "tags": [
+            "collar",
+            "plata",
+            "minimalista"
+        ],
+        "mainImage": "https://i.postimg.cc/pX4wT2xZ/collar-luna.png"
+    },
+    {
+        "id": 32,
+        "title": "Set de Pulseras de Cuentas Naturales",
+        "shortDescription": "Un set de pulseras elásticas con piedras naturales, perfectas para un estilo bohemio.",
+        "longDescription": "Este set incluye tres pulseras elásticas con cuentas de diferentes piedras naturales como ónix, lava volcánica y ojo de tigre. Cada piedra tiene sus propias propiedades energéticas. Su diseño versátil te permite usarlas juntas o por separado, añadiendo un toque de color y personalidad a tu muñeca.",
+        "price": 12000,
+        "stock": 30,
+        "brand": "Boho Vibes",
+        "category": "Accesorios",
+        "discount": 10,
+        "tags": [
+            "pulseras",
+            "piedras",
+            "bohemio",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/J0mY9zT5/pulsera-cuentas.png"
+    },
+    {
+        "id": 33,
+        "title": "Anillo de Acero Inoxidable con Grabado",
+        "shortDescription": "Un anillo robusto y moderno, ideal para un estilo urbano y duradero.",
+        "longDescription": "Fabricado en acero inoxidable de alta calidad, este anillo es resistente a la corrosión y a los arañazos. Su diseño de banda ancha presenta un grabado sutil que le da un toque de personalidad. Un accesorio unisex y atemporal que complementa perfectamente un look casual y contemporáneo.",
+        "price": 7000,
+        "stock": 45,
+        "brand": "Steel Edge",
+        "category": "Accesorios",
+        "discount": 0,
+        "tags": [
+            "anillo",
+            "acero",
+            "unisex"
+        ],
+        "mainImage": "https://i.postimg.cc/Y8T2zXwD/anillo-acero.png"
+    },
+    {
+        "id": 34,
+        "title": "Reloj de Cuero Vintage",
+        "shortDescription": "Un reloj clásico con correa de cuero que combina funcionalidad y estilo retro.",
+        "longDescription": "Este reloj de pulsera cuenta con una caja de acero y una correa de cuero genuino que envejece con elegancia. Su diseño de esfera minimalista y su mecanismo de cuarzo de precisión lo convierten en un accesorio confiable y lleno de estilo vintage. Es el complemento perfecto para cualquier outfit.",
+        "price": 35000,
+        "stock": 20,
+        "brand": "Timeless Watches",
+        "category": "Accesorios",
+        "discount": 0,
+        "tags": [
+            "reloj",
+            "cuero",
+            "vintage"
+        ],
+        "mainImage": "https://i.postimg.cc/9F2wJ9sM/reloj-cuero.png"
+    },
+    {
+        "id": 35,
+        "title": "Gafas de Sol de Montura Redonda",
+        "shortDescription": "Protección y estilo con estas gafas de sol de montura redonda, un clásico reinventado.",
+        "longDescription": "Estas gafas de sol cuentan con lentes con protección UV400 para cuidar tus ojos de los rayos nocivos. Su montura redonda de metal ligero evoca un estilo retro y sofisticado que nunca pasa de moda. Un accesorio esencial para cualquier temporada que eleva tu look al instante.",
+        "price": 19000,
+        "stock": 60,
+        "brand": "Sun Ray",
+        "category": "Accesorios",
+        "discount": 15,
+        "tags": [
+            "gafas",
+            "lentes",
+            "proteccion-uv",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/pX4wT2xZ/gafas-sol.png"
+    },
+    {
+        "id": 36,
+        "title": "Cinturón de Cuero Reversible",
+        "shortDescription": "Un accesorio dos en uno que te ofrece versatilidad y elegancia para diferentes looks.",
+        "longDescription": "Este cinturón está fabricado con cuero genuino de alta calidad y cuenta con una hebilla giratoria que te permite cambiar entre dos colores, generalmente negro y marrón oscuro. Es un accesorio funcional y atemporal que se adapta a una variedad de estilos, desde formales hasta casuales.",
+        "price": 15000,
+        "stock": 25,
+        "brand": "Classic Belt Co.",
+        "category": "Accesorios",
+        "discount": 0,
+        "tags": [
+            "cinturon",
+            "cuero",
+            "reversible"
+        ],
+        "mainImage": "https://i.postimg.cc/J0mY9zT5/cinturon-cuero.png"
+    },
+    {
+        "id": 37,
+        "title": "Perfume Floral para Mujer 'Jardin Secreto'",
+        "shortDescription": "Una fragancia romántica y femenina con notas de jazmín y peonía.",
+        "longDescription": "Este perfume evoca la sensación de un jardín en plena primavera. Las notas de salida de bergamota y mandarina dan paso a un corazón floral de jazmín, rosa y peonía, culminando en un fondo suave de sándalo y almizcle blanco. Ideal para el uso diario y para ocasiones especiales donde quieras dejar una impresión delicada y elegante.",
+        "price": 45000,
+        "stock": 30,
+        "brand": "Essence de Paris",
+        "category": "Perfumes",
+        "discount": 0,
+        "tags": [
+            "perfume",
+            "floral",
+            "mujer"
+        ],
+        "mainImage": "https://i.postimg.cc/pX4wT2xZ/perfume-floral.png"
+    },
+    {
+        "id": 38,
+        "title": "Perfume Amaderado para Hombre 'Intenso'",
+        "shortDescription": "Una fragancia masculina y seductora con notas de cedro y vetiver.",
+        "longDescription": "Intenso es un perfume para el hombre moderno y seguro de sí mismo. Las notas de salida cítricas de limón y pomelo se mezclan con un corazón especiado de nuez moscada y jengibre. La base amaderada de cedro, vetiver y pachulí le da una profundidad duradera. Perfecto para la noche o para un evento formal.",
+        "price": 52000,
+        "stock": 25,
+        "brand": "Urban Scent",
+        "category": "Perfumes",
+        "discount": 10,
+        "tags": [
+            "perfume",
+            "amaderado",
+            "hombre",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/J0mY9zT5/perfume-amaderado.png"
+    },
+    {
+        "id": 39,
+        "title": "Perfume Cítrico Unisex 'Fresh Air'",
+        "shortDescription": "Una fragancia fresca y energizante, ideal para el día y el verano.",
+        "longDescription": "Este perfume unisex captura la vitalidad de un día soleado. Con notas de salida de limón siciliano, naranja y hierbabuena, te envuelve en una sensación de frescura instantánea. El corazón de té verde y jazmín añade un toque sutil, mientras que la base de almizcle lo hace persistente. Es perfecto para quienes buscan una fragancia ligera y revitalizante.",
+        "price": 38000,
+        "stock": 40,
+        "brand": "Citrus Bloom",
+        "category": "Perfumes",
+        "discount": 0,
+        "tags": [
+            "perfume",
+            "cítrico",
+            "unisex"
+        ],
+        "mainImage": "https://i.postimg.cc/Y8T2zXwD/perfume-citrico.png"
+    },
+    {
+        "id": 40,
+        "title": "Perfume Oriental 'Noche Mágica'",
+        "shortDescription": "Una fragancia exótica y misteriosa, perfecta para la noche.",
+        "longDescription": "Noche Mágica es un perfume cautivador con notas orientales especiadas. Las notas de salida de azafrán y canela abren el camino a un corazón opulento de rosa y oud. El fondo de vainilla, ámbar y sándalo crea una estela cálida y seductora que dura toda la noche. Un perfume para quienes quieren dejar una impresión inolvidable.",
+        "price": 65000,
+        "stock": 20,
+        "brand": "Oud Mystique",
+        "category": "Perfumes",
+        "discount": 0,
+        "tags": [
+            "perfume",
+            "oriental",
+            "exclusivo"
+        ],
+        "mainImage": "https://i.postimg.cc/9F2wJ9sM/perfume-oriental.png"
+    },
+    {
+        "id": 41,
+        "title": "Perfume Dulce para Mujer 'Caramelo Encantado'",
+        "shortDescription": "Una fragancia gourmand irresistible con notas de caramelo y vainilla.",
+        "longDescription": "Este perfume es un verdadero deleite para los sentidos. Las notas de salida de frutos rojos se mezclan con un corazón de caramelo salado y flor de vainilla. El fondo de praliné y almizcle le da una dulzura envolvente y adictiva. Ideal para los amantes de las fragancias dulces y para usar en días fríos.",
+        "price": 42000,
+        "stock": 35,
+        "brand": "Sweet Sensations",
+        "category": "Perfumes",
+        "discount": 20,
+        "tags": [
+            "perfume",
+            "dulce",
+            "mujer",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/pX4wT2xZ/perfume-caramelo.png"
+    },
+    {
+        "id": 42,
+        "title": "Perfume Acuático para Hombre 'Océano Azul'",
+        "shortDescription": "Una fragancia fresca y acuática que evoca la brisa del mar.",
+        "longDescription": "Océano Azul es un perfume refrescante y vital, perfecto para el hombre activo. Sus notas de salida de sal marina y toronja te transportan a la costa. El corazón de notas acuáticas y hojas de laurel se fusiona con una base de madera de guayaco y ámbar gris, creando una fragancia limpia y duradera. Ideal para el verano y el uso diario.",
+        "price": 48000,
+        "stock": 50,
+        "brand": "Aqua Force",
+        "category": "Perfumes",
+        "discount": 0,
+        "tags": [
+            "perfume",
+            "acuático",
+            "hombre"
+        ],
+        "mainImage": "https://i.postimg.cc/J0mY9zT5/perfume-oceano.png"
+    },
+    {
+        "id": 43,
+        "title": "Perfume Unisex con Toques de Cuero 'Leather & Spice'",
+        "shortDescription": "Una fragancia audaz y sofisticada con un toque de cuero y especias.",
+        "longDescription": "Este perfume unisex desafía las convenciones. Las notas de salida de pimienta negra y cardamomo se mezclan con un corazón de cuero y violeta. La base de vetiver y cedro le da una profundidad ahumada y elegante. Es un perfume de carácter, ideal para quienes buscan una fragancia diferente y con mucha personalidad.",
+        "price": 58000,
+        "stock": 15,
+        "brand": "Rebel Scents",
+        "category": "Perfumes",
+        "discount": 0,
+        "tags": [
+            "perfume",
+            "cuero",
+            "unisex"
+        ],
+        "mainImage": "https://i.postimg.cc/Y8T2zXwD/perfume-cuero.png"
+    },
+    {
+        "id": 44,
+        "title": "Perfume Gourmand de Café 'Mañana de Otoño'",
+        "shortDescription": "Una fragancia cálida y reconfortante con notas de café y avellana.",
+        "longDescription": "Inspirado en la primera taza de café de la mañana, este perfume es una delicia. Las notas de salida de café tostado y avellana se unen a un corazón de caramelo y chocolate. La base de vainilla y sándalo lo hace irresistiblemente dulce y acogedor. Un perfume perfecto para los días fríos y para los amantes de los aromas gourmand.",
+        "price": 50000,
+        "stock": 28,
+        "brand": "Coffee Break",
+        "category": "Perfumes",
+        "discount": 10,
+        "tags": [
+            "perfume",
+            "gourmand",
+            "cafe",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/9F2wJ9sM/perfume-cafe.png"
+    },
+    {
+        "id": 45,
+        "title": "Perfume Chipre 'Bosque Encantado'",
+        "shortDescription": "Una fragancia clásica y sofisticada con notas de musgo de roble y pachulí.",
+        "longDescription": "Este perfume de la familia olfativa chipre es una oda a la naturaleza. Las notas de salida de bergamota y limón dan paso a un corazón de rosa y jazmín. La base de musgo de roble, pachulí y vetiver le da un aroma terroso y elegante. Es una fragancia atemporal y con un carácter fuerte, ideal para quienes prefieren los perfumes clásicos y con mucha personalidad.",
+        "price": 60000,
+        "stock": 22,
+        "brand": "Green Forest",
+        "category": "Perfumes",
+        "discount": 0,
+        "tags": [
+            "perfume",
+            "chipre",
+            "clasico"
+        ],
+        "mainImage": "https://i.postimg.cc/pX4wT2xZ/perfume-chipre.png"
+    },
+    {
+        "id": 46,
+        "title": "Cuadro Vintage 'Retrato de Dama'",
+        "shortDescription": "Un elegante retrato al óleo de estilo clásico que evoca la sofisticación de épocas pasadas.",
+        "longDescription": "Esta obra de arte captura la belleza atemporal de una dama de la alta sociedad del siglo XIX. El uso de colores suaves y la atención al detalle en los encajes y joyas hacen de este cuadro una pieza perfecta para añadir un toque de distinción a cualquier sala de estar o estudio. Su marco dorado y ornamentado complementa a la perfección la estética vintage de la pintura.",
+        "price": 85000,
+        "stock": 1,
+        "brand": "Arte Clásico",
+        "category": "Cuadros",
+        "discount": 0,
+        "tags": [
+            "cuadro",
+            "vintage",
+            "retrato",
+            "oleo"
+        ],
+        "mainImage": "https://i.postimg.cc/9F2wJ9sM/cuadro-dama.png"
+    },
+    {
+        "id": 47,
+        "title": "Cuadro 'Mapa Antiguo del Mundo'",
+        "shortDescription": "Un mapa detallado y envejecido que inspira la aventura y la exploración.",
+        "longDescription": "Esta réplica de un mapa del mundo del siglo XVII es una pieza de conversación. Con sus intrincadas ilustraciones de barcos, monstruos marinos y territorios inexplorados, es ideal para decorar una biblioteca, un despacho o una habitación temática. La textura del lienzo y los tonos sepia le dan una apariencia auténticamente antigua.",
+        "price": 60000,
+        "stock": 3,
+        "brand": "Viajero del Tiempo",
+        "category": "Cuadros",
+        "discount": 10,
+        "tags": [
+            "cuadro",
+            "vintage",
+            "mapa",
+            "exploracion",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/pX4wT2xZ/cuadro-mapa.png"
+    },
+    {
+        "id": 48,
+        "title": "Cuadro 'Bodegón con Frutas y Vino'",
+        "shortDescription": "Una pintura clásica de bodegón que celebra la abundancia y la vida cotidiana.",
+        "longDescription": "Este cuadro representa una escena de bodegón tradicional con frutas maduras, una jarra de vino y otros objetos cotidianos. Los ricos colores y la técnica de claroscuro le dan una profundidad y calidez únicas. Es una adición perfecta para una cocina o un comedor, creando un ambiente acogedor y lleno de historia.",
+        "price": 55000,
+        "stock": 2,
+        "brand": "Pincel de Oro",
+        "category": "Cuadros",
+        "discount": 0,
+        "tags": [
+            "cuadro",
+            "vintage",
+            "bodegon",
+            "cocina"
+        ],
+        "mainImage": "https://i.postimg.cc/J0mY9zT5/cuadro-bodegon.png"
+    },
+    {
+        "id": 49,
+        "title": "Cuadro 'Automóvil Clásico en Calle Parisina'",
+        "shortDescription": "Una obra que evoca el encanto de la Belle Époque con un automóvil antiguo.",
+        "longDescription": "Esta pintura capta la esencia de una calle de París en los años 20, con un elegante automóvil clásico como protagonista. Los detalles arquitectónicos, la iluminación tenue y las figuras borrosas de los transeúntes crean una atmósfera romántica y nostálgica. Ideal para los amantes de los autos clásicos y la cultura francesa.",
+        "price": 75000,
+        "stock": 1,
+        "brand": "Retro Motion",
+        "category": "Cuadros",
+        "discount": 0,
+        "tags": [
+            "cuadro",
+            "vintage",
+            "automovil",
+            "paris"
+        ],
+        "mainImage": "https://i.postimg.cc/Y8T2zXwD/cuadro-coche.png"
+    },
+    {
+        "id": 50,
+        "title": "Cuadro 'Cartel Publicitario de Época'",
+        "shortDescription": "Un colorido cartel publicitario de los años 50 que añade un toque pop y retro a tu decoración.",
+        "longDescription": "Esta pieza es una réplica de un vibrante cartel publicitario de los años 50, con sus llamativos colores y tipografía vintage. El cuadro es perfecto para una decoración más desenfadada, como una sala de juegos, una barra o una cocina. Aporta una dosis de alegría y nostalgia pop a cualquier espacio.",
+        "price": 40000,
+        "stock": 5,
+        "brand": "Pop Art Vintage",
+        "category": "Cuadros",
+        "discount": 20,
+        "tags": [
+            "cuadro",
+            "vintage",
+            "pop-art",
+            "publicidad",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/9F2wJ9sM/cuadro-cartel.png"
+    },
+    {
+        "id": 51,
+        "title": "Cuadro 'Paisaje Rural con Molino'",
+        "shortDescription": "Una serena pintura de un paisaje rural que transmite calma y belleza natural.",
+        "longDescription": "Esta obra maestra representa un tranquilo paisaje rural con un molino de viento al fondo y campos dorados en primer plano. La paleta de colores terrosos y la pincelada detallada crean una sensación de paz y tranquilidad. Es una pieza ideal para un dormitorio o una sala de estar donde se busca un ambiente relajante.",
+        "price": 68000,
+        "stock": 2,
+        "brand": "Nature's Palette",
+        "category": "Cuadros",
+        "discount": 0,
+        "tags": [
+            "cuadro",
+            "vintage",
+            "paisaje",
+            "rural"
+        ],
+        "mainImage": "https://i.postimg.cc/pX4wT2xZ/cuadro-molino.png"
+    },
+    {
+        "id": 56,
+        "title": "Comic 'El Guardián Cósmico' Vol. 1",
+        "shortDescription": "El inicio de una épica aventura de ciencia ficción con un héroe intergaláctico.",
+        "longDescription": "Sigue las hazañas de Zandar, el último Guardián Cósmico, mientras viaja a través de la galaxia para protegerla de una antigua amenaza. Este volumen de tapa dura recopila los primeros seis números de la aclamada serie. Con ilustraciones vibrantes y una narrativa cautivadora, es un must-have para los amantes del género de superhéroes y la ciencia ficción.",
+        "price": 25000,
+        "stock": 15,
+        "brand": "Cosmic Comics",
+        "category": "Comics",
+        "discount": 0,
+        "tags": [
+            "comic",
+            "superheroes",
+            "ciencia-ficcion",
+            "tapa-dura"
+        ],
+        "mainImage": "https://i.postimg.cc/J0mY9zT5/comic-guardian.png"
+    },
+    {
+        "id": 57,
+        "title": "Novela Gráfica 'El Silencio de la Ciudad'",
+        "shortDescription": "Una historia noir intensa y dramática ambientada en una ciudad corrupta y sin ley.",
+        "longDescription": "En las calles oscuras de Neo-Metrópolis, el detective Jack Stone se enfrenta a un caso que lo llevará a los rincones más profundos de la corrupción. Esta novela gráfica de tapa blanda destaca por su arte en blanco y negro de estilo sombrío y una trama llena de giros inesperados. Una lectura obligada para los fanáticos del crimen y las historias complejas.",
+        "price": 18000,
+        "stock": 20,
+        "brand": "Noir Press",
+        "category": "Comics",
+        "discount": 10,
+        "tags": [
+            "novela-grafica",
+            "noir",
+            "crimen",
+            "ofert"
+        ],
+        "mainImage": "https://i.postimg.cc/pX4wT2xZ/comic-noir.png"
+    },
+    {
+        "id": 58,
+        "title": "Manga 'La Leyenda del Samurái' Vol. 3",
+        "shortDescription": "La continuación de la saga de un joven samurái en busca de venganza en el Japón feudal.",
+        "longDescription": "Hiroki continúa su viaje para vengar la muerte de su familia, enfrentándose a poderosos enemigos y forjando nuevas alianzas. Este volumen del manga, con su estilo de dibujo tradicional y su trepidante acción, profundiza en la historia de Hiroki y revela secretos del pasado. Incluye capítulos extra y bocetos del autor. Perfecto para los seguidores del shonen.",
+        "price": 12000,
+        "stock": 30,
+        "brand": "Rising Sun Manga",
+        "category": "Comics",
+        "discount": 0,
+        "tags": [
+            "manga",
+            "samurai",
+            "shonen",
+            "accion"
+        ],
+        "mainImage": "https://i.postimg.cc/Y8T2zXwD/manga-samurai.png"
+    },
+    {
+        "id": 59,
+        "title": "Comic de Aventura 'El Reino Perdido'",
+        "shortDescription": "Una aventura fantástica para todas las edades, llena de magia y personajes entrañables.",
+        "longDescription": "Acompaña a la joven exploradora Elara y su fiel compañero dragón, Spark, en una misión para descubrir los secretos de un reino olvidado. Con ilustraciones coloridas y un guion lleno de humor y emoción, este cómic es ideal para lectores jóvenes y adultos que buscan una historia de fantasía optimista y bien construida. Tapa blanda y papel de alta calidad.",
+        "price": 15000,
+        "stock": 25,
+        "brand": "Fantasy Tales",
+        "category": "Comics",
+        "discount": 0,
+        "tags": [
+            "comic",
+            "aventura",
+            "fantasia",
+            "infantil"
+        ],
+        "mainImage": "https://i.postimg.cc/9F2wJ9sM/comic-fantasia.png"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "title":"Remeras",
+        "image":"https://i.postimg.cc/26z6FtyZ/20250807-0553-Sleek-Nova-Sportswear-simple-compose-01k21vnv7de46sqbaf68zrf97j.png"
+    },
+    {
+        "id":2,
+        "title":"Pantalones",
+        "image":"https://i.postimg.cc/ncnyVt57/20250807-0556-Premium-Athletic-Pants-simple-compose-01k21vwtwae0qa1d8rb1g5a6wk.png"
+    },
+    {
+        "id":3,
+        "title":"Zapatillas",
+        "image":"https://i.postimg.cc/K8BB0dGq/20250807-0554-Nova-Athletic-Sneakers-simple-compose-01k21vs4geex7rn1teaqad4wq3.png"
+    },
+    {
+        "id":4,
+        "title":"Accesorios",
+        "image":"https://i.postimg.cc/kGy1kBv4/20250807-0605-Elegant-Nova-Jewelry-simple-compose-01k21wc1kff168ec4gtn518tj0.png"
+    },
+    {
+        "id":5,
+        "title":"Perfumes",
+        "image":"https://i.postimg.cc/7LbCpdwr/20250807-0602-Elegant-Nova-Perfume-Bottle-simple-compose-01k21w62t8fja9k26qxqv5bn01.png"
+    },
+    {
+        "id":6,
+        "title":"Cuadros",
+        "image":"https://i.postimg.cc/KjKjWM27/20250807-0635-Contemporary-Nova-Art-simple-compose-01k21y1w30eqr8b5s5krwfcbep.png"
+    },
+    {
+        "id":7,
+        "title":"Comics",
+        "image":"https://i.postimg.cc/G9nHWmz4/20250807-0657-Hero-na-Futurista-en-Ruinas-simple-compose-01k21zb5cte2kbv47tgpzjw7ay.png"
+    }
+]
