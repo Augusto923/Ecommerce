@@ -3,6 +3,7 @@ import { CategoriesScreen, ProductsScreen, ProductScreen } from '../screens';
 import { colors } from '../global/theme';
 import { Ionicons } from '@expo/vector-icons';
 import { Pressable } from 'react-native';
+import CartScreen from '../screens/CartScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -18,24 +19,45 @@ export default function ShopStack() {
       <Stack.Screen
         name="Categories"
         component={CategoriesScreen}
-        options={{ title: 'Novae' }}
+        options={({ navigation }) => ({
+          title: 'Novae',
+          headerRight: () => (
+            <Pressable onPress={() => navigation.navigate('Cart')}>
+              <Ionicons name="cart" size={24} color="white" />
+            </Pressable>
+          ),
+        })}
       />
+
       <Stack.Screen
         name="Products"
         component={ProductsScreen}
-        options={({ route, navigation }) => ({
-          title: route.params.category,
+      />
+
+      <Stack.Screen
+        name="Product"
+        component={ProductScreen}
+        options={({ navigation }) => ({
+          title: 'Detalle del producto',
           headerLeft: () => (
             <Pressable onPress={() => navigation.goBack()}>
               <Ionicons name="arrow-back" size={24} color="white" />
             </Pressable>
           ),
+          headerRight: () => (
+            <Pressable onPress={() => navigation.navigate('Cart')}>
+              <Ionicons name="cart" size={24} color="white" />
+            </Pressable>
+          ),
         })}
       />
+
       <Stack.Screen
-        name="Product"
-        component={ProductScreen}
-        options={{ title: 'Detalle del producto' }}
+        name="Cart"
+        component={CartScreen}
+        options={{
+          title: 'Mi Carrito',
+        }}
       />
     </Stack.Navigator>
   );

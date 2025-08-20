@@ -4,6 +4,8 @@ import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import { NavigationContainer } from '@react-navigation/native';
 import ShopStack from './src/navigation/ShopStack';
+import { Provider } from 'react-redux';
+import store from './src/store';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -22,9 +24,11 @@ export default function App() {
   if (!loaded && !error) return null;
 
   return (
-    <NavigationContainer>
-      <StatusBar style="light" />
-      <ShopStack />
-    </NavigationContainer>
+    <Provider store={store}>
+      <NavigationContainer>
+        <StatusBar style="light" />
+        <ShopStack />
+      </NavigationContainer>
+    </Provider>
   );
 }

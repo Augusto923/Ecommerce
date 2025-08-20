@@ -1,30 +1,50 @@
 import { FlatList, ImageBackground, Pressable, StyleSheet, Text, View } from 'react-native';
 import TextConvergence from '../components/TextConvergence';
-import categories from '../data/categories.json';
+import { useSelector, useDispatch } from 'react-redux';
+import { setCategorySelected } from '../features/shop/shopSlice';
+import { useGetCategoriesQuery } from '../services/shopApi';
 
+const CategoryCard = ({ category, onPress }) => (
+  <View style={styles.cardWrapper}>
+    <Pressable
+      onPress={onPress}
+      style={({ pressed }) => [styles.cardContainer, pressed && styles.cardPressed]}
+      android_ripple={{ color: 'rgba(0,0,0,0.1)' }}
+      accessibilityRole="button"
+      accessibilityLabel={`Ver productos de la categoría ${category.title}`}
+    >
+      <ImageBackground
+        source={{ uri: category.image }}
+        style={styles.imageBackground}
+        imageStyle={styles.imageStyle}
+      >
+        <View style={styles.overlay}>
+          <TextConvergence style={styles.title}>{category.title}</TextConvergence>
+        </View>
+      </ImageBackground>
+    </Pressable>
+  </View>
+);
 
 const CategoriesScreen = ({ navigation }) => {
+  // const categories = useSelector((state) => state.shop.categories);
+
+  const {data:categories,isLoading,error} = useGetCategoriesQuery()
+  // console.log(isLoading,error)
+  // console.log(categories)
+
+  const dispatch = useDispatch();
 
   const renderCategoryItem = ({ item }) => (
-    <View style={styles.cardWrapper}>
-      <Pressable
-        style={({ pressed }) => [
-          styles.cardContainer,
-          pressed && styles.cardPressed,
-        ]}
-        onPress={() => navigation.navigate("Products", { category: item.title })}
-      >
-        <ImageBackground
-          source={{ uri: item.image }}
-          style={styles.imageBackground}
-          imageStyle={styles.imageStyle}
-        >
-          <View style={styles.overlay}>
-            <TextConvergence style={styles.title}>{item.title}</TextConvergence>
-          </View>
-        </ImageBackground>
-      </Pressable>
-    </View>
+    <CategoryCard
+      category={item}
+      onPress={() => {
+        
+        dispatch(setCategorySelected(item.title));
+
+        navigation.navigate('Products');
+      }}
+    />
   );
 
   return (
@@ -36,6 +56,7 @@ const CategoriesScreen = ({ navigation }) => {
         keyExtractor={(item) => item.id.toString()}
         numColumns={2}
         contentContainerStyle={styles.listContainer}
+        showsVerticalScrollIndicator={false}
       />
     </View>
   );
@@ -47,7 +68,7 @@ const styles = StyleSheet.create({
   screenContainer: {
     flex: 1,
     backgroundColor: '#F8F9FA',
-    paddingHorizontal: 8,
+    paddingHorizontal: 10,
   },
   screenTitle: {
     fontSize: 28,
@@ -59,12 +80,10 @@ const styles = StyleSheet.create({
   listContainer: {
     paddingBottom: 24,
   },
-  //Contenedor para cada item, maneja el espaciado exterior
   cardWrapper: {
     flex: 1,
-    padding: 8,
+    padding: 10,
   },
-  //tarjeta presionable
   cardContainer: {
     flex: 1,
     borderRadius: 16,
@@ -76,12 +95,9 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.2,
     shadowRadius: 6,
-    
-    //Transición suave
-    transition: 'transform 0.2s ease-in-out',
   },
   cardPressed: {
-    transform: [{ scale: 0.96 }], //Efecto de "hundimiento"
+    opacity: 0.7,
   },
   imageBackground: {
     flex: 1,
@@ -97,9 +113,9 @@ const styles = StyleSheet.create({
     padding: 12,
   },
   title: {
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: '600',
-    color: '#ffffffff',
+    color: '#fff',
     textAlign: 'center',
   },
 });
