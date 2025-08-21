@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import { View, Text, StyleSheet, FlatList, Image, Pressable, Alert } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
-import { removeFromCart, clearCart, increaseQuantity, decreaseQuantity } from '../features/cart/cartSlice';
+import { removeFromCart, clearCart, increaseQuantity, decreaseQuantity } from '../../features/cart/cartSlice';
 import { Ionicons } from '@expo/vector-icons';
 
 const CartItem = React.memo(({ item, onIncrease, onDecrease, onRemove }) => {
@@ -81,7 +81,7 @@ export default function CartScreen() {
   const dispatch = useDispatch();
 
   const total = cart.reduce((sum, item) => {
-    const finalPrice = item.discount
+    const finalPrice = item.discount > 0
       ? item.price - (item.price * item.discount) / 100
       : item.price;
     return sum + finalPrice * (item.quantity || 1);
@@ -102,6 +102,18 @@ export default function CartScreen() {
     Alert.alert('Compra realizada', 'Gracias por tu compra.');
   }, []);
 
+  const handleIncrease = useCallback((id) => {
+    dispatch(increaseQuantity(id));
+  }, [dispatch]);
+
+  const handleDecrease = useCallback((id) => {
+    dispatch(decreaseQuantity(id));
+  }, [dispatch]);
+
+  const handleRemove = useCallback((id) => {
+    dispatch(removeFromCart(id));
+  }, [dispatch]);
+
   if (cart.length === 0) {
     return (
       <View style={styles.center}>
@@ -119,9 +131,9 @@ export default function CartScreen() {
         renderItem={({ item }) => (
           <CartItem
             item={item}
-            onIncrease={(id) => dispatch(increaseQuantity(id))}
-            onDecrease={(id) => dispatch(decreaseQuantity(id))}
-            onRemove={() => dispatch(removeFromCart(item.id))}
+            onIncrease={handleIncrease}
+            onDecrease={handleDecrease}
+            onRemove={() => handleRemove(item.id)}
           />
         )}
         contentContainerStyle={{ paddingBottom: 140 }}

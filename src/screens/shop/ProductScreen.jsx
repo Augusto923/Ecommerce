@@ -1,8 +1,8 @@
 import React, { useMemo } from 'react';
 import { View, Text, StyleSheet, Image, ScrollView, Pressable, Alert } from 'react-native';
 import { useDispatch } from 'react-redux';
-import { addToCart } from '../features/cart/cartSlice';
-import products from '../data/products.json';
+import { addToCart } from '../../features/cart/cartSlice';
+import products from '../../data/products.json';
 
 const Price = ({ price, discount }) => {
   const hasDiscount = discount > 0;

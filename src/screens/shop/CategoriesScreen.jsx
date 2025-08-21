@@ -1,8 +1,8 @@
 import { FlatList, ImageBackground, Pressable, StyleSheet, Text, View } from 'react-native';
-import TextConvergence from '../components/TextConvergence';
+import TextConvergence from '../../components/TextConvergence';
 import { useSelector, useDispatch } from 'react-redux';
-import { setCategorySelected } from '../features/shop/shopSlice';
-import { useGetCategoriesQuery } from '../services/shopApi';
+import { setCategorySelected } from '../../features/shop/shopSlice';
+import { useGetCategoriesQuery } from '../../services/shop/shopApi';
 
 const CategoryCard = ({ category, onPress }) => (
   <View style={styles.cardWrapper}>

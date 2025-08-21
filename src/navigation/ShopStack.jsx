@@ -3,7 +3,7 @@ import { CategoriesScreen, ProductsScreen, ProductScreen } from '../screens';
 import { colors } from '../global/theme';
 import { Ionicons } from '@expo/vector-icons';
 import { Pressable } from 'react-native';
-import CartScreen from '../screens/CartScreen';
+import CartScreen from '../screens/cart/CartScreen';
 
 const Stack = createNativeStackNavigator();
 

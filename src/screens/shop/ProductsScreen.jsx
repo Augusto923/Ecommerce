@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, FlatList, Image, StyleSheet, TouchableOpacity, Pressable } from "react-native";
-import Search from "../components/Search";
+import Search from "../../components/Search";
 import { useSelector, useDispatch } from "react-redux";
-import { filterProductsByKeyword } from "../features/shop/shopSlice";
+import { filterProductsByKeyword } from "../../features/shop/shopSlice";
 import { useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
-import { useGetProductsByCategoryQuery } from "../services/shopApi";
+import { useGetProductsByCategoryQuery } from "../../services/shop/shopApi";
 
 const ProductCard = ({ item, onPress }) => {
   const hasDiscount = item.discount > 0;
@@ -45,17 +45,17 @@ const ProductsScreen = () => {
 
   const categorySelected = useSelector((state) => state.shop.categorySelected);
 
-  // Usa el hook RTK Query / productos por categoria
+  //Hook RTK Query / productos por categoria
   const { data: products, isLoading, error } = useGetProductsByCategoryQuery(categorySelected);
 
-  // Filtrado por palabra clave
+  //Filtrado por palabra clave
   const filteredProducts = products?.filter(product =>product.title.toLowerCase().includes(keyword.toLowerCase()));
 
   useEffect(() => {
     dispatch(filterProductsByKeyword(keyword));
   }, [keyword, dispatch]);
 
-  // Header dinámico
+  //Header dinámico
   useEffect(() => {
     navigation.setOptions({
       title: categorySelected || "Productos",
@@ -72,7 +72,7 @@ const ProductsScreen = () => {
     });
   }, [categorySelected, navigation]);
 
-  // Función de renderizado para productos
+  //Renderizado para productos
   const renderProductItem = ({ item }) => (
     <ProductCard
       item={item}

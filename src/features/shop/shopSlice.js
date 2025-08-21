@@ -4,17 +4,11 @@ import products from "../../data/products.json";
 
 const shopSlice = createSlice({
   name: "shop",
-  initialState: {
-    categories,
-    products,
-    categorySelected: "",
-    productsFilteredByCategory: [],
-    productSelected: null,
-  },
+  initialState: {categories,products,categorySelected: "",productsFilteredByCategory: [],productSelected: null,},
   reducers: {
     setCategorySelected: (state, action) => {
       state.categorySelected = action.payload;
-      // Filtrar automáticamente al elegir categoria
+
       state.productsFilteredByCategory = state.products.filter(
         (product) =>
           product.category.toLowerCase() === action.payload.toLowerCase()
@@ -25,6 +19,7 @@ const shopSlice = createSlice({
     },
     filterProductsByKeyword: (state, action) => {
       const keyword = action.payload.toLowerCase();
+      
       state.productsFilteredByCategory = state.products.filter(
         (product) =>
           product.category.toLowerCase() === state.categorySelected.toLowerCase() &&
